@@ -13,3 +13,13 @@ BusinessNum,stYear,노무비,당기순이익(손실),당좌부채(당좌차월),
 최적 모델 결과:
 {'accuracy': 0.6838882510524301, 'precision': 0.7163344697498902, 'recall': 0.6838882510524301, 'f1': 0.6876443480622835}
 ```
+
+## 코드 실행법
+```
+python3 재무안정성_predict.py
+```
+를 이용해 다양한 알고리즘 (LGBM / RF / Gradient Boost.. )에 대한 학습결과를 확인할 수 있다.
+```
+python3 재무안정성_predict_hyperparameter.py
+```
+를 이용해 가장 우수한 성과를 보인 Gradient Boost 알고리즘에 대해 다양한 hyperparameter를 적용한 결과를 확인할 수 있다.
